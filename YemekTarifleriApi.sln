@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{567CAED8-86CB-42D4-8394-43C5E5399503}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5353E0D4-2B2E-4624-9427-FB9F212B0A3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6060590E-3F5B-452E-8D74-C2C734CCE76E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YemekTarifleriApi.Domain", "Core\YemekTarifleriApi.Domain\YemekTarifleriApi.Domain.csproj", "{3E044C77-2BDB-40F2-856B-CAA3F2B018B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YemekTarifleriApi.Application", "Core\YemekTarifleriApi.Application\YemekTarifleriApi.Application.csproj", "{7E14EB92-0E7A-4FDB-BB3C-5B49334ADCD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YemekTarifleriApi.Infrastructure", "Infrastructure\YemekTarifleriApi.Infrastructure\YemekTarifleriApi.Infrastructure.csproj", "{824B9B61-EAA0-49D4-92E0-62D971A79B53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YemekTarifleriApi.Persistence", "Infrastructure\YemekTarifleriApi.Persistence\YemekTarifleriApi.Persistence.csproj", "{E6F1B392-7139-44D5-906B-FD175B095210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YemekTarifleriApi.WebApi", "Presentation\YemekTarifleriApi.WebApi\YemekTarifleriApi.WebApi.csproj", "{5B739286-1FCD-4BF4-B4C1-DAA63D9893F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E044C77-2BDB-40F2-856B-CAA3F2B018B5} = {567CAED8-86CB-42D4-8394-43C5E5399503}
+		{7E14EB92-0E7A-4FDB-BB3C-5B49334ADCD4} = {567CAED8-86CB-42D4-8394-43C5E5399503}
+		{824B9B61-EAA0-49D4-92E0-62D971A79B53} = {5353E0D4-2B2E-4624-9427-FB9F212B0A3B}
+		{E6F1B392-7139-44D5-906B-FD175B095210} = {5353E0D4-2B2E-4624-9427-FB9F212B0A3B}
+		{5B739286-1FCD-4BF4-B4C1-DAA63D9893F8} = {6060590E-3F5B-452E-8D74-C2C734CCE76E}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E044C77-2BDB-40F2-856B-CAA3F2B018B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E044C77-2BDB-40F2-856B-CAA3F2B018B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E044C77-2BDB-40F2-856B-CAA3F2B018B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E044C77-2BDB-40F2-856B-CAA3F2B018B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E14EB92-0E7A-4FDB-BB3C-5B49334ADCD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E14EB92-0E7A-4FDB-BB3C-5B49334ADCD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E14EB92-0E7A-4FDB-BB3C-5B49334ADCD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E14EB92-0E7A-4FDB-BB3C-5B49334ADCD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824B9B61-EAA0-49D4-92E0-62D971A79B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824B9B61-EAA0-49D4-92E0-62D971A79B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824B9B61-EAA0-49D4-92E0-62D971A79B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824B9B61-EAA0-49D4-92E0-62D971A79B53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6F1B392-7139-44D5-906B-FD175B095210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F1B392-7139-44D5-906B-FD175B095210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6F1B392-7139-44D5-906B-FD175B095210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F1B392-7139-44D5-906B-FD175B095210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B739286-1FCD-4BF4-B4C1-DAA63D9893F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B739286-1FCD-4BF4-B4C1-DAA63D9893F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B739286-1FCD-4BF4-B4C1-DAA63D9893F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B739286-1FCD-4BF4-B4C1-DAA63D9893F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
